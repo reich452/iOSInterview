@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		017715BE1F192B4000D671B2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 017715BD1F192B4000D671B2 /* AppDelegate.swift */; };
-		017715C01F192B4000D671B2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 017715BF1F192B4000D671B2 /* ViewController.swift */; };
 		017715C31F192B4000D671B2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 017715C11F192B4000D671B2 /* Main.storyboard */; };
 		017715C51F192B4000D671B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 017715C41F192B4000D671B2 /* Assets.xcassets */; };
 		017715C81F192B4100D671B2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 017715C61F192B4100D671B2 /* LaunchScreen.storyboard */; };
@@ -17,7 +16,6 @@
 /* Begin PBXFileReference section */
 		017715BA1F192B4000D671B2 /* InterviewApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InterviewApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		017715BD1F192B4000D671B2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		017715BF1F192B4000D671B2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		017715C21F192B4000D671B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		017715C41F192B4000D671B2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		017715C71F192B4100D671B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -54,14 +52,53 @@
 		017715BC1F192B4000D671B2 /* InterviewApp */ = {
 			isa = PBXGroup;
 			children = (
-				017715BD1F192B4000D671B2 /* AppDelegate.swift */,
-				017715BF1F192B4000D671B2 /* ViewController.swift */,
-				017715C11F192B4000D671B2 /* Main.storyboard */,
-				017715C41F192B4000D671B2 /* Assets.xcassets */,
-				017715C61F192B4100D671B2 /* LaunchScreen.storyboard */,
-				017715C91F192B4100D671B2 /* Info.plist */,
+				017715D31F192C2A00D671B2 /* Storyboard */,
+				017715D11F192B8600D671B2 /* View Controllers */,
+				017715D01F192B7F00D671B2 /* Model Controller */,
+				017715CF1F192B7600D671B2 /* Model */,
+				017715D21F192B9100D671B2 /* Resources */,
 			);
 			path = InterviewApp;
+			sourceTree = "<group>";
+		};
+		017715CF1F192B7600D671B2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		017715D01F192B7F00D671B2 /* Model Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Model Controller";
+			sourceTree = "<group>";
+		};
+		017715D11F192B8600D671B2 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		017715D21F192B9100D671B2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				017715C91F192B4100D671B2 /* Info.plist */,
+				017715C41F192B4000D671B2 /* Assets.xcassets */,
+				017715BD1F192B4000D671B2 /* AppDelegate.swift */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		017715D31F192C2A00D671B2 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				017715C61F192B4100D671B2 /* LaunchScreen.storyboard */,
+				017715C11F192B4000D671B2 /* Main.storyboard */,
+			);
+			name = Storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -96,6 +133,7 @@
 				TargetAttributes = {
 					017715B91F192B4000D671B2 = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = WAN4D79W79;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -136,7 +174,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				017715C01F192B4000D671B2 /* ViewController.swift in Sources */,
 				017715BE1F192B4000D671B2 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -262,6 +299,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = WAN4D79W79;
 				INFOPLIST_FILE = InterviewApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.wesstpeak.InterviewApp;
@@ -274,6 +312,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = WAN4D79W79;
 				INFOPLIST_FILE = InterviewApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.wesstpeak.InterviewApp;
